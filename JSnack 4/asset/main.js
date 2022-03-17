@@ -26,6 +26,6 @@ while ( i < invitati.length ) {
 }
 
 if (accesso == false){
-    console.log(`Mi dispiace ${domanda} il suo nome non è presente nella lista!`);
-    alert(`Mi dispiace` + domanda + `il suo nome non è presente nella lista!`);
+    console.log(`Mi dispiace ${domanda}  il suo nome non è presente nella lista!`);
+    alert(`Mi dispiace ` + domanda + ` il suo nome non è presente nella lista!`);
 }
