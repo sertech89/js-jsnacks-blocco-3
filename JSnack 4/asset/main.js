@@ -2,9 +2,9 @@
 // chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa. 
 // Interrompi il ciclo appena il nome è stato trovato.
 
-let invitati = ["Baudo", "Alzheimer", "Pivetta", "Brazorf", "Fatarni", "Marinalli", "Cisafrulli"];
+let invitati = ["Mario", "Maccio", "Piero", "Marco", "Fabio", "Sergio", "Antonello"];
 
-let domanda = prompt(`mi scusi, lei è il Dottor?`);
+let domanda = prompt(`è in lista?`);
 
 let accesso = false;
 
@@ -19,13 +19,13 @@ while ( i < invitati.length ) {
 
     if (accesso == true){
         i = invitati.length+1;
-        console.log(`lo ben so Dottor ${domanda} entri pure!`);
-        alert(`lo ben so Dottor ` + domanda + ` entri pure!`);
+        console.log(`ho capito ${domanda} prego!`);
+        alert(`ho capito` + domanda + `prego!`);
     }
 
 }
 
 if (accesso == false){
-    console.log(`Dottor ${domanda} vada via o la opero!`);
-    alert(`Dottor ` + domanda + ` vada via o la opero!`);
+    console.log(`Mi dispiace ${domanda} il suo nome non è presente nella lista!`);
+    alert(`Mi dispiace` + domanda + `il suo nome non è presente nella lista!`);
 }
